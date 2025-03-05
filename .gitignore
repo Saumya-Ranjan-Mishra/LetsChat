@@ -1,1 +1,5 @@
 *.vsidx
+/chat-api/chat.apis/obj
+/chat-api/chat.apis/obj
+/chat-api/chat.apis/obj/Debug
+chat-api/chat.apis/obj/Debug/net8.0/chat.apis.AssemblyInfo.cs
