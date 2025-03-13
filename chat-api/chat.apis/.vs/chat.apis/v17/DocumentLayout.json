@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:messagehandler\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\messagehandler\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:messagehandler\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9C3DF22-D317-4090-AFC2-401AB48775EF}|chat.apis.csproj|d:\\github\\letschat\\chat-api\\chat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 17,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,28 +70,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T10:39:01.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MessageHandler.cs",
               "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\MessageHandler\\MessageHandler.cs",
               "RelativeDocumentMoniker": "MessageHandler\\MessageHandler.cs",
               "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\MessageHandler\\MessageHandler.cs",
               "RelativeToolTip": "MessageHandler\\MessageHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T10:46:29.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Message.cs",
               "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Models\\Message.cs",
               "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Models\\Message.cs",
               "RelativeToolTip": "Models\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:41:26.696Z"
+              "WhenOpened": "2025-03-04T09:41:26.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -101,25 +115,27 @@
               "RelativeDocumentMoniker": "MessageHandler\\IMessageHandler.cs",
               "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\MessageHandler\\IMessageHandler.cs",
               "RelativeToolTip": "MessageHandler\\IMessageHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:39:28.4Z"
+              "WhenOpened": "2025-03-04T09:39:28.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
               "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:28:21.15Z"
+              "WhenOpened": "2025-03-04T09:28:21.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -127,7 +143,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:23:55.068Z"
+              "WhenOpened": "2025-03-04T09:23:55.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,19 +156,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T09:23:33.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Github\\LetsChat\\chat-api\\chat.apis\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:23:27.224Z"
+              "WhenOpened": "2025-03-04T09:23:33.722Z",
+              "EditorCaption": ""
             }
           ]
         },

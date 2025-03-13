@@ -15,7 +15,7 @@ namespace chat.apis.Controllers
         }
         [HttpGet("connect")]
         public async Task InitiateChat([FromQuery] string userId)
-        {       
+        {
             Console.WriteLine($"{userId} is online");
             if (HttpContext.WebSockets.IsWebSocketRequest)
             {
@@ -25,10 +25,16 @@ namespace chat.apis.Controllers
                 if (!string.IsNullOrEmpty(userId))
                 {
                     Console.WriteLine($"{userId} is receiving messages");
-                   await MessageHandler.ReceiveMessages(userId, webSocket);
+                    await MessageHandler.ReceiveMessages(userId, webSocket);
                 }
             }
         }
+
+        [HttpGet("/message")]
+        public async Task SendMessage([FromQuery] string to)
+        {
+
+        }
+
     }
 }
-
