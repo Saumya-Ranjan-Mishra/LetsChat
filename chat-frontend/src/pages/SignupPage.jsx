@@ -35,7 +35,7 @@ export default function SignupPage() {
       <LineText>
         Already have an account?{" "}
         <BoldLink href="/login">
-          Signin
+          login
         </BoldLink>
       </LineText>
     </BoxContainer>

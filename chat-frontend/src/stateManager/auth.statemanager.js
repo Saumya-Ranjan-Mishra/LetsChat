@@ -19,19 +19,37 @@ export const checkForUserAuthentication = create((setAuthenticatedUser) => ({
         }
     },
 
-signupUser: async (data) => {
-    setAuthenticatedUser({isSigningUp: true})
-    try{
-        const res = await axiosRequest.post("/auth/signup", data);
-        setAuthenticatedUser({authenticatedUser: res.data});
-        console.log("signup successfully")
+    signupUser: async (data) => {
+        setAuthenticatedUser({isSigningUp: true})
+        try{
+            const res = await axiosRequest.post("/auth/signup", data);
+            setAuthenticatedUser({authenticatedUser: res.data});
+            console.log("signup successfully")
+        }
+        catch{
+            console.log(`error occurred while signingup user: ${error}`);
+        }
+        finally{
+            setAuthenticatedUser({isSigningUp: false});
+        }
+    },
+
+    loginUser: async (data) => {
+
+        setAuthenticatedUser({isLoggingIn: true})
+
+        try{
+            const res = await axiosRequest.post("/auth/login", data)
+            setAuthenticatedUser({authenticatedUser: res.data})
+            console.log(res);
+        }
+        catch(error)
+        {
+            console.log(`error occured while trying to login: ${error}`)
+        }
+        finally{
+            setAuthenticatedUser({isLoggingIn: false})
+        }
     }
-    catch{
-        console.log(`error occurred while signingup user: ${error}`);
-    }
-    finally{
-        setAuthenticatedUser({isSigningUp: false});
-    }
-}
 
 }));
