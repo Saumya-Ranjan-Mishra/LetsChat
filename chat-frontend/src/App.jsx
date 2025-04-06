@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import SignupPage from './pages/SignupPage'
 import { checkForUserAuthentication } from './stateManager/auth.statemanager'
+import {Toaster} from "react-hot-toast"
 
 function App() {
   const {authenticatedUser, checkIfUserIsAuthenticated, isCheckingForAuthentication} = checkForUserAuthentication();
@@ -30,12 +31,14 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={authenticatedUser? <HomePage /> : <Navigate to="/login" />} />
+          <Route path="/" element={authenticatedUser? <HomePage /> : <Navigate to="/signup" />} />
           <Route path="/login" element={!authenticatedUser? <LoginPage /> : <Navigate to = "/"/>} />
           <Route path="/signup" element={!authenticatedUser? <SignupPage /> : <Navigate to="/" />} />
           <Route path="/setting" element={<SettingsPage />} />
           <Route path="/profile" element={ authenticatedUser?  <ProfilePage />  : <Navigate to="/login" />} />
         </Routes>
+
+        <Toaster></Toaster>
       </div>
     </>
   )

@@ -3,7 +3,6 @@ import { axiosRequest } from "../lib/axios";
 
 export const checkForUserAuthentication = create((setAuthenticatedUser) => ({
     authenticatedUser: null,
-    isSigningUp: false,
     isLoggingIn: false,
     isUpdatingProfile: false,
     isCheckingForAuthentication: true,
@@ -18,5 +17,21 @@ export const checkForUserAuthentication = create((setAuthenticatedUser) => ({
         } finally {
             setAuthenticatedUser({ isCheckingForAuthentication: false });
         }
+    },
+
+signupUser: async (data) => {
+    setAuthenticatedUser({isSigningUp: true})
+    try{
+        const res = await axiosRequest.post("/auth/signup", data);
+        setAuthenticatedUser({authenticatedUser: res.data});
+        console.log("signup successfully")
     }
+    catch{
+        console.log(`error occurred while signingup user: ${error}`);
+    }
+    finally{
+        setAuthenticatedUser({isSigningUp: false});
+    }
+}
+
 }));
